@@ -1,0 +1,270 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*for the paragraphs on top */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    gap: 50px;
+  }
+  
+  
+  .left-paragraph,
+  .right-paragraph {
+    width: 48%;
+  }
+  
+  .left-paragraph {
+    order: 1;
+  }
+  
+  .right-paragraph {
+    order: 2;
+  }
+  nav {
+    text-align: right;
+}
+.navbar{ 
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  z-index: 100; 
+}
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 10px;
+    padding: 30px 280px 30px 0;
+}
+nav li {
+    display: inline-block; 
+    margin-left: 20px; 
+}
+nav li a {
+    text-decoration: none;
+    color: #9f9999;
+}
+nav li a:hover {
+  color: rgb(76, 198, 175);
+}
+.paragraph p {
+  line-height: 1.8;
+  color: #767272;
+}
+
+
+.thin-h1{color: rgb(76, 198, 175);}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff; 
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.green-text {
+  color: green; 
+}
+
+.gray-text {
+  color: gray; 
+  margin-left: 5px; 
+}
+.flex-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-docplanner {
+  width: 250px;
+  height: auto;}
+  .thin-h1 {
+    font-weight: 10;
+  }
+  .red {
+    width: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    border-radius: 10px;
+    background-color: rgb(45, 209, 185);
+  }
+  .green {
+    width: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    border-radius: 10px;
+    background-color: rgb(69, 146, 224);
+  }
+  .blue {
+    width: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    border-radius: 10px;
+    background-color: rgb(32, 32, 55);
+  }
+  .container-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .container-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; 
+    justify-content: center;
+    gap: 20px;
+  }
+  .red h2,
+.green h2,
+.blue h2 {
+  font-weight: 300; 
+  font-size: 240px; 
+  padding: 20px;
+}
+
+
+
+  .red h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  .red h2 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #fff;
+  }
+  .green h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  .green h2 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #fff;
+  }
+  .blue h1{
+    font-size: 24px;
+    margin: 10px 0;
+color: #fff;
+  }
+  .blue h2{
+    font-size: 16px;
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  
+  .blue,
+.green {
+  margin-bottom: 20px; 
+}
+
+
+#domain-switcher-1{
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0 2em 0 0;
+  -webkit-appearance: none;
+  outline: 0;
+  text-transform: none;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 30px;
+  
+
+}
+#domain-switcher-2{
+  width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 30px;
+}
+#domain-switcher-3{
+  width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 30px;
+    
+}
+.green h2 {
+  font-size: 22px; 
+  
+}
+.red h2 {
+  font-size: 22px;
+}
+.blue h2 {
+  font-size:22px;
+}
+
+
+
+
+
+
+
+
+
+
+  .images{
+    background-color: rgb(239, 239, 239);
+    width: 50%;
+    height: 800px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0px auto;
+  }
